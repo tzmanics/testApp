@@ -1,30 +1,14 @@
 {
-  "name": "teatApp",
-  "version": "0.0.1",
-  "description": "simple to-do test app",
-  "main": "server.js",
-  "author": "Tara Manicsic <tara@modulis.io>",
-  "dependencies": {
-    "body-parser": "~1.5.2",
-    "express": "~4.8.3",
-    "method-override": "~2.1.2",
-    "mongoose": "~3.8.14",
-    "morgan": "~1.2.2"
-  },
-  "scripts": {
-    "start": "node server.js"
-  },
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:tzmanics/testApp.git"
-  },
-  "keywords": [
-    "test"
-  ],
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/tzmanics/testApp/issues"
-  },
-  "homepage": "https://github.com/tzmanics/testApp"
+  "name"         : "testApp",
+  "version"      : "0.0.0",
+  "description"  : "Simple todo application.",
+  "main"         : "server.js",
+  "author"       : "Tara Manicsic <tara@modulus.io>",
+  "dependencies" : {
+    "express"         : "~4.6.1",
+    "mongoose"        : "~3.8.13",
+    "morgan"          : "~1.1.1",
+    "body-parser"     : "~1.4.3",
+    "method-override" : "~2.1.1"
+  }
 }
